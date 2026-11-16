@@ -1,6 +1,6 @@
 # AKASHA // The Open Archive
 
-An open-source, offline-first concept explorer inspired by the Akashic Records, with an interactive constellation, source-linked history, a personal reflection journal, and a separate hypothetical-possibilities layer.
+An open-source, offline-first concept explorer inspired by the Akashic Records, with an interactive constellation, source-linked history, a personal reflection journal, linked record trails, and a separate hypothetical-possibilities layer.
 
 **Live site (once Pages publishes):** https://michaelwave369.github.io/AKASHA/
 
@@ -11,8 +11,9 @@ An open-source, offline-first concept explorer inspired by the Akashic Records, 
 - **Documented:** Historical concepts and public archives, with source links and provenance labels.
 - **Reflections:** Journal dreams, ideas and impressions without treating them as independently verified history.
 - **Possibilities:** Examine hypothetical scenarios and future designs without claiming certain prediction.
-- Search, navigate the constellation by mouse, touch or keyboard, and add entries.
-- Export/import entries as JSON, or delete individual and all local entries.
+- Follow outgoing and incoming relationships directly in the record panel. Add, follow and unlink connections on personal entries.
+- Search (including source names), navigate the constellation by mouse, touch or keyboard, and add entries.
+- Export/import entries and relationships as JSON (v2; v1 exports remain compatible), or delete individual and all local entries.
 
 There are no trackers, cloud backend, external runtime dependencies, paid APIs or user accounts. Authored entries stay in this browser's local storage. **Storage is not encrypted**: do not enter sensitive information on shared devices.
 
@@ -37,10 +38,11 @@ No npm install is needed.
 ## Roadmap
 
 - v0.1: Standalone constellation, source references, browser-only notes and import/export
-- v0.2: Provenance-aware document graph, local search and source quality controls
-- v0.3: User-owned encrypted vault, optional local AI retrieval
-- v0.4: Accessible Quest 3 / WebXR Hall of Records with desktop fallback
-- v0.5: Opt-in preregistered blinded-target research mode
+- v0.2: Interactive linked-record trails, editable personal relationships, citation-name search and backward-compatible exports
+- v0.3: Provenance-aware document graph, source quality controls and public archive adapters
+- v0.4: User-owned encrypted vault, optional local AI retrieval
+- v0.5: Accessible Quest 3 / WebXR Hall of Records with desktop fallback
+- v0.6: Opt-in preregistered blinded-target research mode
 
 [Research and technical blueprint](docs/DEEP_DIVE.md) • [License](LICENSE)
 

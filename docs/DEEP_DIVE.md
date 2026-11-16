@@ -157,3 +157,11 @@ Even a statistically unusual result would require replication, leak audits and e
 - **Focus Bridge 21:** reflective prompts, with clarity about subjective rather than objective claims.
 
 These are integration ideas, not claims that any repositories were modified.
+
+## v0.2: Linked record trails
+
+- The detail panel exposes both outbound and inbound connections, with keyboard-accessible buttons to follow them.
+- User-authored entries can link to up to eight same-layer records, during creation or afterwards; user-owned outbound edges can be removed. Curated source edges are read-only.
+- Record normalization at import/load enforces distinct user ID format, input length and http(s) source URL boundaries. Linking to a source is not equivalent to source verification.
+- The original localStorage key stays unchanged. Existing v1 local records remain accessible, v1 exports still import, and new v2 exports preserve relationships and optional source titles.
+- The app has no server, trackers, paid APIs or external runtime packages.
